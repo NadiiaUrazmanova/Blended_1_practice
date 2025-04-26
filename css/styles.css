@@ -1,0 +1,169 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #22343D;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 237px;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav-link {
+    display: block;
+    padding: 26px 0;
+}
+
+.header-btn-list {
+    display: flex;
+    gap: 21px;
+}
+
+.header-btn {
+    min-width: 105px;
+    height: 42px;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.header-btn:hover {
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+
+.header-btn:focus {
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+
+.current {
+    font-weight: 600;
+}
+
+
+.footer-form {
+    min-width: 325px;
+    
+}
+
+.footer-form-name {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.footer-form-label {
+    position: relative;
+    
+    
+}
+
+.footer-form-input {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75; 
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 325px;
+    height: 48px;
+    background: #fff; 
+    padding-left: 42px;
+
+}
+
+
+
+.footer-form-input::placeholder {
+    color: #02897a;   
+}
+
+.footer-form-input:focus {
+    border-color: red;
+    outline: none;
+}
+
+.footer-form-input:focus + .footer-form-icon{
+    fill: red;
+}
+
+.footer-form-icon {
+    fill: #02897a;    
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-form-button {
+    display: block;
+    width: 131px;
+    height: 39px;
+    background: #02897A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;    
+    text-align: center;
+    color: #fff;
+}
